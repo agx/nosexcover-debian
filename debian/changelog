@@ -1,0 +1,5 @@
+nosexcover (1.0.7-1) unstable; urgency=low
+
+  * Initial release (Closes: #645897)
+
+ -- Guido Günther <agx@sigxcpu.org>  Tue, 19 Jun 2012 15:25:48 +0200

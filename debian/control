@@ -1,0 +1,19 @@
+Source: nosexcover
+Section: python
+Priority: extra
+Maintainer: Guido Günther <agx@sigxcpu.org>
+Build-Depends: debhelper (>= 8.0.0), python-all,
+ python-setuptools
+Standards-Version: 3.9.3
+Homepage: http://pypi.python.org/pypi/nosexcover
+
+Package: python-nosexcover
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends},
+ ${python:Depends}, python-nose
+Description: Add Cobertura-style XML coverage report to nose
+ A companion to the built-in nose.plugins.cover, this plugin will write
+ out an XML coverage report to a file named coverage.xml.
+ .
+ It will honor all the options you pass to the Nose coverage plugin,
+ especially --cover-package.
