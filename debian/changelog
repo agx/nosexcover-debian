@@ -1,3 +1,11 @@
+nosexcover (1.0.10-1) unstable; urgency=medium
+
+  * [554deda] Add watch file
+  * [3b74373] New upstream version 1.0.10
+  * [cd1006c] Add python3 package
+
+ -- Guido Günther <agx@sigxcpu.org>  Thu, 19 Feb 2015 13:32:42 +0100
+
 nosexcover (1.0.7-1) unstable; urgency=low
 
   * Initial release (Closes: #645897)
