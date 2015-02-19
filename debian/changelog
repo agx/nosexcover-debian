@@ -1,4 +1,4 @@
-nosexcover (1.0.10-1) unstable; urgency=medium
+nosexcover (1.0.10-1) experimental; urgency=medium
 
   * [554deda] Add watch file
   * [3b74373] New upstream version 1.0.10
