@@ -16,20 +16,25 @@ Package: python-nosexcover
 Architecture: all
 Depends: ${misc:Depends},
  ${python:Depends}, python-nose, python-coverage (>= 3.4)
-Description: Add Cobertura-style XML coverage report to nose
+Description: Add Cobertura-style XML coverage report to nose (Python2 version)
  A companion to the built-in nose.plugins.cover, this plugin will write
  out an XML coverage report to a file named coverage.xml.
  .
  It will honor all the options you pass to the Nose coverage plugin,
  especially --cover-package.
+ .
+ This package contains the Python 2 version of the module.
 
 Package: python3-nosexcover
 Architecture: all
 Depends: ${misc:Depends},
  ${python3:Depends}, python-nose, python-coverage (>= 3.4)
-Description: Add Cobertura-style XML coverage report to nose
+Description: Add Cobertura-style XML coverage report to nose (Python3 version)
  A companion to the built-in nose.plugins.cover, this plugin will write
  out an XML coverage report to a file named coverage.xml.
  .
  It will honor all the options you pass to the Nose coverage plugin,
  especially --cover-package.
+ .
+ This package contains the Python 3 version of the module.
+
