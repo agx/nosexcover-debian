@@ -6,7 +6,7 @@ import logging
 import sys
 try:
     # Python 2
-    import StringIO
+    from StringIO import StringIO
 except ImportError:
     # Python 3
     from io import StringIO
@@ -44,9 +44,9 @@ class XCoverage(cover.Coverage):
         coverage_on = options.enable_plugin_coverage
         xcoverage_on = options.enable_plugin_xcoverage
         if xcoverage_on and coverage_on:
-            log.error(
-                """You can not use both --with-xcover and --with-coverage. Using --with-xcover implies --with-coverage""")
-            raise TypeError
+            error_msg = """You can not use both --with-xcover and --with-coverage. Using --with-xcover implies --with-coverage"""
+            log.error(error_msg)
+            raise TypeError(error_msg + "\n Please check if you have a default entry in .noserc or nose.cfg or setup.cfg alike configuration file")
 
         cover.old_log = cover.log
         cover.log = log
@@ -64,7 +64,7 @@ class XCoverage(cover.Coverage):
         """
         if not self.xcoverageToStdout:
             # This will create a false stream where output will be ignored
-            stream = StringIO.StringIO()
+            stream = StringIO()
             
         super(XCoverage, self).report(stream)
         if not hasattr(self, 'coverInstance'):

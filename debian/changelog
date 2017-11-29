@@ -1,3 +1,11 @@
+nosexcover (1.0.11-1~1.gbpefdcbb) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @efdcbbd1b61d910810ac785ce86a806bbd5576f5 **
+
+  * New upstream version 1.0.11
+
+ -- Guido Günther <agx@sigxcpu.org>  Wed, 29 Nov 2017 08:43:48 +0100
+
 nosexcover (1.0.10-2) unstable; urgency=medium
 
   * Upload to unstable
