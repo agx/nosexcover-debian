@@ -2,7 +2,7 @@ Source: nosexcover
 Section: python
 Priority: optional
 Maintainer: Guido Günther <agx@sigxcpu.org>
-Build-Depends: debhelper (>= 8.0.0),
+Build-Depends: debhelper (>= 10.0.0~),
  python-all,
  python3,
  python-nose,
