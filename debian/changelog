@@ -1,10 +1,13 @@
-nosexcover (1.0.11-1~1.gbpefdcbb) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @efdcbbd1b61d910810ac785ce86a806bbd5576f5 **
+nosexcover (1.0.11-1) unstable; urgency=medium
 
   * New upstream version 1.0.11
+  * Set priority to optional
+  * d/control: add python versions to description
+  * d/control: Bump standards version
+  * d/watch: use https URI
+  * Bump debhelper compat level to 10
 
- -- Guido Günther <agx@sigxcpu.org>  Wed, 29 Nov 2017 08:43:48 +0100
+ -- Guido Günther <agx@sigxcpu.org>  Wed, 29 Nov 2017 09:04:26 +0100
 
 nosexcover (1.0.10-2) unstable; urgency=medium
 
