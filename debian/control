@@ -1,6 +1,6 @@
 Source: nosexcover
 Section: python
-Priority: extra
+Priority: optional
 Maintainer: Guido Günther <agx@sigxcpu.org>
 Build-Depends: debhelper (>= 8.0.0),
  python-all,
