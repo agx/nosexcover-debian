@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: nosexcover
-Version: 1.0.10
+Version: 1.0.11
 Summary: Extends nose.plugins.cover to add Cobertura-style XML reports
 Home-page: http://github.com/cmheisel/nose-xcover/
 Author: Chris Heisel
@@ -15,7 +15,7 @@ Description: nose-xmlcover
         
         Usage
         ------
-        You can not use both --with-xcover and --with-coverage.  Using --with-xcover implies --with-coverage
+        You can not use both --with-xcoverage and --with-coverage.  Using --with-xcover implies --with-coverage
         
         If you want to change the name of the output file you can use --xcoverage-file=FILE (--cover-xml-file from coverage won't work)
         
